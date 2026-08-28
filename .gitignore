@@ -1,0 +1,27 @@
+# Secrets / credentials — never commit these
+*.pem
+*.key
+.env
+.env.*
+*_rsa
+*_rsa.pub
+
+# Terraform local state & cache (contains resource details; not meant to be committed
+# for a local-backend setup like this one — see README notes on Terraform)
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/

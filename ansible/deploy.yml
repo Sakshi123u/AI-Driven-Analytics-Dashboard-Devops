@@ -1,0 +1,80 @@
+---
+- name: Deploy AI Analytics Dashboard
+  hosts: web
+  become: yes
+
+  tasks:
+
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Install pip (needed for Docker Python SDK)
+      apt:
+        name: python3-pip
+        state: present
+
+    - name: Install Docker SDK for Python (required by community.docker modules)
+      pip:
+        name: docker
+        state: present
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Add ubuntu user to Docker group
+      user:
+        name: ubuntu
+        groups: docker
+        append: yes
+
+    - name: Create application directory
+      file:
+        path: /home/ubuntu/app
+        state: directory
+        owner: ubuntu
+        group: ubuntu
+        mode: '0755'
+
+    - name: Copy application files
+      copy:
+        src: ../app/
+        dest: /home/ubuntu/app/
+        owner: ubuntu
+        group: ubuntu
+
+    - name: Build Docker image
+      community.docker.docker_image:
+        name: ai-analytics
+        tag: latest
+        source: build
+        force_source: yes
+        build:
+          path: /home/ubuntu/app
+          pull: yes
+
+    - name: Stop and remove previous container (if it exists)
+      community.docker.docker_container:
+        name: ai-analytics
+        state: absent
+      ignore_errors: yes
+
+    - name: Run latest Docker container
+      community.docker.docker_container:
+        name: ai-analytics
+        image: ai-analytics:latest
+        state: started
+        restart_policy: unless-stopped
+        ports:
+          - "8501:8501"
+        env:
+          OPENROUTER_API_KEY: "{{ openrouter_api_key | default('') }}"

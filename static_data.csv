@@ -1,0 +1,901 @@
+Date,CustomerID,Item,StoreLocation,Category,Price,Quantity,Sales
+2024-02-24,C001,Wine,Mall B,Groceries,18.0,1,18.0
+2024-02-24,C001,Jam,Online Store,Groceries,6.5,1,6.5
+2024-02-24,C001,Butter,Mall B,Groceries,4.0,1,4.0
+2024-01-24,C001,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-01-24,C001,Milk,Mall A,Groceries,4.5,2,9.0
+2024-01-24,C001,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-01-21,C001,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-01-21,C001,Bread,Online Store,Groceries,3.0,1,3.0
+2024-01-21,C001,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-04-06,C001,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-04-06,C001,Wine,Mall A,Groceries,18.0,2,36.0
+2024-04-06,C001,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-03-03,C001,Butter,Online Store,Groceries,4.0,2,8.0
+2024-03-03,C001,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-03-03,C001,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-05-11,C001,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-05-11,C001,Wine,Mall A,Groceries,18.0,2,36.0
+2024-05-11,C001,Bread,Online Store,Groceries,3.0,2,6.0
+2024-06-06,C001,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-06-06,C001,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-06-06,C001,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-06-26,C001,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-06-26,C001,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-06-26,C001,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-01-15,C001,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-01-15,C001,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-01-15,C001,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-03-21,C001,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-03-21,C001,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-03-21,C001,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-03-24,C001,Milk,Mall B,Groceries,4.5,1,4.5
+2024-03-24,C001,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-03-24,C001,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-01-22,C001,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-01-22,C001,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-01-22,C001,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-04-02,C001,Butter,Mall A,Groceries,4.0,1,4.0
+2024-04-02,C001,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-04-02,C001,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-06-05,C001,Milk,Mall B,Groceries,4.5,1,4.5
+2024-06-05,C001,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-06-05,C001,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-03-30,C001,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-03-30,C001,Bread,Mall A,Groceries,3.0,1,3.0
+2024-03-30,C001,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-02-07,C002,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-02-07,C002,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-02-07,C002,Wine,Mall A,Groceries,18.0,2,36.0
+2024-04-16,C002,Smartphone,Online Store,Electronics,350.0,2,700.0
+2024-04-16,C002,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-16,C002,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-01-14,C002,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-14,C002,Milk,Online Store,Groceries,4.5,2,9.0
+2024-01-14,C002,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-06-15,C002,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-06-15,C002,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-06-15,C002,Butter,Online Store,Groceries,4.0,2,8.0
+2024-02-27,C002,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-02-27,C002,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-02-27,C002,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-02-04,C002,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-02-04,C002,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-02-04,C002,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-01-24,C002,Jam,Online Store,Groceries,6.5,2,13.0
+2024-01-24,C002,Wine,Online Store,Groceries,18.0,1,18.0
+2024-01-24,C002,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-02-13,C002,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-02-13,C002,Jam,Mall B,Groceries,6.5,1,6.5
+2024-02-13,C002,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-01-15,C002,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-01-15,C002,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-15,C002,Milk,Mall A,Groceries,4.5,1,4.5
+2024-01-05,C002,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-01-05,C002,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-01-05,C002,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-05-02,C002,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-05-02,C002,Milk,Mall B,Groceries,4.5,2,9.0
+2024-05-02,C002,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-02-22,C002,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-02-22,C002,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-02-22,C002,Milk,Mall A,Groceries,4.5,2,9.0
+2024-01-08,C002,Bread,Online Store,Groceries,3.0,1,3.0
+2024-01-08,C002,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-01-08,C002,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-05-16,C002,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-05-16,C002,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-05-16,C002,Wine,Mall A,Groceries,18.0,2,36.0
+2024-05-08,C002,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-05-08,C002,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-05-08,C002,Butter,Online Store,Groceries,4.0,2,8.0
+2024-04-07,C003,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-04-07,C003,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-04-07,C003,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-01-21,C003,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-01-21,C003,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-01-21,C003,Jam,Mall B,Groceries,6.5,1,6.5
+2024-06-13,C003,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-06-13,C003,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-06-13,C003,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-06-11,C003,Bread,Mall A,Groceries,3.0,2,6.0
+2024-06-11,C003,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-06-11,C003,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-01-06,C003,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-01-06,C003,Butter,Mall B,Groceries,4.0,2,8.0
+2024-01-06,C003,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-05-08,C003,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-05-08,C003,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-05-08,C003,Milk,Mall A,Groceries,4.5,2,9.0
+2024-02-18,C003,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-02-18,C003,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-02-18,C003,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-02-11,C003,Butter,Online Store,Groceries,4.0,2,8.0
+2024-02-11,C003,Jam,Mall A,Groceries,6.5,1,6.5
+2024-02-11,C003,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-02-10,C003,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-02-10,C003,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-02-10,C003,Jam,Mall A,Groceries,6.5,1,6.5
+2024-05-30,C003,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-05-30,C003,Butter,Mall B,Groceries,4.0,2,8.0
+2024-05-30,C003,Milk,Mall B,Groceries,4.5,1,4.5
+2024-01-10,C003,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-01-10,C003,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-01-10,C003,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-04-03,C003,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-04-03,C003,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-04-03,C003,Bread,Online Store,Groceries,3.0,1,3.0
+2024-01-15,C003,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-01-15,C003,Butter,Mall B,Groceries,4.0,2,8.0
+2024-01-15,C003,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-06-12,C003,Butter,Mall A,Groceries,4.0,1,4.0
+2024-06-12,C003,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-06-12,C003,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-03-13,C003,Bread,Mall B,Groceries,3.0,2,6.0
+2024-03-13,C003,Milk,Mall A,Groceries,4.5,1,4.5
+2024-03-13,C003,Wine,Online Store,Groceries,18.0,1,18.0
+2024-04-30,C004,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-04-30,C004,Milk,Mall B,Groceries,4.5,1,4.5
+2024-04-30,C004,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-04-28,C004,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-04-28,C004,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-04-28,C004,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-03-09,C004,Wine,Mall A,Groceries,18.0,2,36.0
+2024-03-09,C004,Eggs,Mall B,Groceries,5.5,1,5.5
+2024-03-09,C004,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-03-21,C004,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-03-21,C004,Milk,Mall A,Groceries,4.5,2,9.0
+2024-03-21,C004,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-02-11,C004,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-02-11,C004,Jam,Mall B,Groceries,6.5,1,6.5
+2024-02-11,C004,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-04-15,C004,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-04-15,C004,Bread,Mall B,Groceries,3.0,2,6.0
+2024-04-15,C004,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-06-25,C004,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-06-25,C004,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-06-25,C004,Butter,Online Store,Groceries,4.0,1,4.0
+2024-01-05,C004,Smartphone,Online Store,Electronics,350.0,2,700.0
+2024-01-05,C004,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-01-05,C004,Jam,Mall B,Groceries,6.5,2,13.0
+2024-01-09,C004,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-01-09,C004,Bread,Mall A,Groceries,3.0,1,3.0
+2024-01-09,C004,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-03-25,C004,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-03-25,C004,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-03-25,C004,Jam,Mall A,Groceries,6.5,1,6.5
+2024-01-02,C004,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-02,C004,Wine,Mall B,Groceries,18.0,2,36.0
+2024-01-02,C004,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-02-09,C004,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-02-09,C004,Milk,Mall B,Groceries,4.5,2,9.0
+2024-02-09,C004,Butter,Online Store,Groceries,4.0,2,8.0
+2024-04-16,C004,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-04-16,C004,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-04-16,C004,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-06-07,C004,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-06-07,C004,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-06-07,C004,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-31,C004,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-01-31,C004,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-01-31,C004,Butter,Mall A,Groceries,4.0,1,4.0
+2024-01-12,C005,Milk,Mall B,Groceries,4.5,2,9.0
+2024-01-12,C005,Bread,Mall B,Groceries,3.0,2,6.0
+2024-01-12,C005,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-02-09,C005,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-02-09,C005,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-02-09,C005,Bread,Mall B,Groceries,3.0,2,6.0
+2024-01-04,C005,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-01-04,C005,Wine,Mall B,Groceries,18.0,2,36.0
+2024-01-04,C005,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-02-13,C005,Milk,Online Store,Groceries,4.5,1,4.5
+2024-02-13,C005,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-02-13,C005,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-06-26,C005,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-06-26,C005,Jam,Mall A,Groceries,6.5,2,13.0
+2024-06-26,C005,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-05-09,C005,Wine,Mall A,Groceries,18.0,2,36.0
+2024-05-09,C005,Milk,Mall B,Groceries,4.5,2,9.0
+2024-05-09,C005,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-04-09,C005,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-09,C005,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-04-09,C005,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-03-31,C005,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-03-31,C005,Milk,Mall A,Groceries,4.5,1,4.5
+2024-03-31,C005,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-06-25,C005,Milk,Mall A,Groceries,4.5,2,9.0
+2024-06-25,C005,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-06-25,C005,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-06-14,C005,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-06-14,C005,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-06-14,C005,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-01-31,C005,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-01-31,C005,Butter,Mall A,Groceries,4.0,1,4.0
+2024-01-31,C005,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-01-05,C005,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-01-05,C005,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-01-05,C005,Wine,Mall A,Groceries,18.0,2,36.0
+2024-03-20,C005,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-03-20,C005,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-03-20,C005,Bread,Online Store,Groceries,3.0,2,6.0
+2024-05-08,C005,Butter,Mall A,Groceries,4.0,1,4.0
+2024-05-08,C005,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-05-08,C005,Wine,Mall A,Groceries,18.0,2,36.0
+2024-01-02,C005,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-01-02,C005,Butter,Online Store,Groceries,4.0,2,8.0
+2024-01-02,C005,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-06-05,C006,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-06-05,C006,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-06-05,C006,Jam,Mall B,Groceries,6.5,2,13.0
+2024-06-17,C006,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-06-17,C006,Butter,Mall A,Groceries,4.0,2,8.0
+2024-06-17,C006,T-Shirt,Online Store,Apparel,15.5,2,31.0
+2024-01-26,C006,Jam,Online Store,Groceries,6.5,1,6.5
+2024-01-26,C006,Butter,Online Store,Groceries,4.0,2,8.0
+2024-01-26,C006,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-05-26,C006,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-05-26,C006,Milk,Mall A,Groceries,4.5,2,9.0
+2024-05-26,C006,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-02-13,C006,Jeans,Online Store,Apparel,45.0,1,45.0
+2024-02-13,C006,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-02-13,C006,Bread,Mall B,Groceries,3.0,2,6.0
+2024-06-22,C006,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-06-22,C006,Butter,Online Store,Groceries,4.0,2,8.0
+2024-06-22,C006,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-01-21,C006,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-01-21,C006,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-01-21,C006,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-02-24,C006,Wine,Online Store,Groceries,18.0,1,18.0
+2024-02-24,C006,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-02-24,C006,Butter,Mall B,Groceries,4.0,2,8.0
+2024-02-09,C006,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-02-09,C006,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-02-09,C006,Bread,Online Store,Groceries,3.0,2,6.0
+2024-06-18,C006,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-06-18,C006,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-06-18,C006,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-03-27,C006,Milk,Mall B,Groceries,4.5,1,4.5
+2024-03-27,C006,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-03-27,C006,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-03-23,C006,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-03-23,C006,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-03-23,C006,Butter,Mall B,Groceries,4.0,2,8.0
+2024-05-23,C006,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-05-23,C006,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-05-23,C006,Butter,Mall B,Groceries,4.0,2,8.0
+2024-06-04,C006,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-06-04,C006,Wine,Online Store,Groceries,18.0,2,36.0
+2024-06-04,C006,Bread,Mall A,Groceries,3.0,2,6.0
+2024-04-20,C006,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-04-20,C006,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-04-20,C006,Bread,Mall A,Groceries,3.0,1,3.0
+2024-02-02,C007,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-02-02,C007,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-02-02,C007,Jam,Mall B,Groceries,6.5,2,13.0
+2024-01-01,C007,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-01-01,C007,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-01-01,C007,Milk,Online Store,Groceries,4.5,1,4.5
+2024-04-07,C007,Wine,Mall A,Groceries,18.0,2,36.0
+2024-04-07,C007,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-04-07,C007,Butter,Mall B,Groceries,4.0,1,4.0
+2024-03-08,C007,Wine,Online Store,Groceries,18.0,1,18.0
+2024-03-08,C007,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-03-08,C007,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-05-05,C007,Wine,Online Store,Groceries,18.0,2,36.0
+2024-05-05,C007,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-05-05,C007,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-05-27,C007,Jam,Mall A,Groceries,6.5,2,13.0
+2024-05-27,C007,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-05-27,C007,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-04-21,C007,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-04-21,C007,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-21,C007,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-01-20,C007,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-01-20,C007,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-01-20,C007,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-06-09,C007,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-06-09,C007,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-06-09,C007,Cheese,Online Store,Groceries,7.0,2,14.0
+2024-03-26,C007,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-03-26,C007,Jam,Mall A,Groceries,6.5,1,6.5
+2024-03-26,C007,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-01-22,C007,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-01-22,C007,T-Shirt,Online Store,Apparel,15.5,2,31.0
+2024-01-22,C007,Milk,Online Store,Groceries,4.5,1,4.5
+2024-05-21,C007,Bread,Mall A,Groceries,3.0,2,6.0
+2024-05-21,C007,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-05-21,C007,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-03-19,C007,Wine,Mall A,Groceries,18.0,2,36.0
+2024-03-19,C007,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-03-19,C007,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-04-15,C007,Milk,Mall B,Groceries,4.5,2,9.0
+2024-04-15,C007,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-04-15,C007,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-06-19,C007,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-06-19,C007,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-06-19,C007,Bread,Mall B,Groceries,3.0,2,6.0
+2024-06-25,C008,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-06-25,C008,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-06-25,C008,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-06-08,C008,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-06-08,C008,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-06-08,C008,Wine,Online Store,Groceries,18.0,1,18.0
+2024-06-30,C008,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-06-30,C008,Milk,Mall B,Groceries,4.5,1,4.5
+2024-06-30,C008,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-03-26,C008,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-03-26,C008,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-03-26,C008,Jam,Mall B,Groceries,6.5,1,6.5
+2024-04-25,C008,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-04-25,C008,Butter,Online Store,Groceries,4.0,2,8.0
+2024-04-25,C008,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-02-03,C008,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-02-03,C008,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-02-03,C008,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-03-16,C008,Wine,Online Store,Groceries,18.0,1,18.0
+2024-03-16,C008,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-03-16,C008,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-01-26,C008,Milk,Mall B,Groceries,4.5,2,9.0
+2024-01-26,C008,Butter,Mall B,Groceries,4.0,1,4.0
+2024-01-26,C008,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-04-08,C008,Wine,Mall A,Groceries,18.0,1,18.0
+2024-04-08,C008,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-04-08,C008,Butter,Online Store,Groceries,4.0,2,8.0
+2024-03-19,C008,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-03-19,C008,Cheese,Online Store,Groceries,7.0,2,14.0
+2024-03-19,C008,Milk,Mall B,Groceries,4.5,1,4.5
+2024-06-18,C008,Jam,Mall B,Groceries,6.5,2,13.0
+2024-06-18,C008,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-06-18,C008,Cheese,Online Store,Groceries,7.0,2,14.0
+2024-04-22,C008,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-04-22,C008,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-04-22,C008,Wine,Mall A,Groceries,18.0,1,18.0
+2024-05-22,C008,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-05-22,C008,Bread,Online Store,Groceries,3.0,2,6.0
+2024-05-22,C008,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-04-03,C008,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-04-03,C008,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-04-03,C008,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-03-11,C008,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-03-11,C008,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-03-11,C008,Jam,Mall A,Groceries,6.5,1,6.5
+2024-05-03,C009,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-05-03,C009,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-05-03,C009,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-01-20,C009,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-01-20,C009,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-01-20,C009,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-02-14,C009,Butter,Mall B,Groceries,4.0,2,8.0
+2024-02-14,C009,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-02-14,C009,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-02-25,C009,Jam,Mall A,Groceries,6.5,1,6.5
+2024-02-25,C009,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-02-25,C009,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-02-18,C009,Milk,Mall A,Groceries,4.5,1,4.5
+2024-02-18,C009,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-02-18,C009,Wine,Online Store,Groceries,18.0,2,36.0
+2024-01-17,C009,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-01-17,C009,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-01-17,C009,Milk,Mall B,Groceries,4.5,1,4.5
+2024-06-17,C009,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-06-17,C009,Wine,Online Store,Groceries,18.0,2,36.0
+2024-06-17,C009,Jam,Mall B,Groceries,6.5,2,13.0
+2024-05-06,C009,Wine,Mall B,Groceries,18.0,2,36.0
+2024-05-06,C009,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-06,C009,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-03-24,C009,Milk,Mall B,Groceries,4.5,1,4.5
+2024-03-24,C009,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-03-24,C009,Wine,Mall A,Groceries,18.0,2,36.0
+2024-03-29,C009,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-03-29,C009,Bread,Online Store,Groceries,3.0,2,6.0
+2024-03-29,C009,Milk,Online Store,Groceries,4.5,2,9.0
+2024-01-29,C009,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-01-29,C009,Butter,Mall B,Groceries,4.0,2,8.0
+2024-01-29,C009,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-08,C009,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-05-08,C009,Butter,Mall B,Groceries,4.0,2,8.0
+2024-05-08,C009,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-06-10,C009,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-06-10,C009,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-06-10,C009,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-03-10,C009,Eggs,Online Store,Groceries,5.5,2,11.0
+2024-03-10,C009,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-03-10,C009,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-01-28,C009,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-01-28,C009,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-01-28,C009,T-Shirt,Online Store,Apparel,15.5,2,31.0
+2024-02-29,C010,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-02-29,C010,Milk,Mall B,Groceries,4.5,2,9.0
+2024-02-29,C010,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-06-03,C010,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-06-03,C010,Butter,Online Store,Groceries,4.0,2,8.0
+2024-06-03,C010,Milk,Mall B,Groceries,4.5,2,9.0
+2024-05-31,C010,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-05-31,C010,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-05-31,C010,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-06-06,C010,Bread,Mall B,Groceries,3.0,1,3.0
+2024-06-06,C010,Butter,Mall B,Groceries,4.0,2,8.0
+2024-06-06,C010,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-02-05,C010,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-02-05,C010,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-02-05,C010,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-04-01,C010,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-04-01,C010,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-01,C010,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-05-27,C010,Wine,Online Store,Groceries,18.0,1,18.0
+2024-05-27,C010,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-05-27,C010,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-03-19,C010,Jam,Online Store,Groceries,6.5,2,13.0
+2024-03-19,C010,Milk,Mall A,Groceries,4.5,2,9.0
+2024-03-19,C010,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-05-22,C010,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-22,C010,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-05-22,C010,Smartphone,Online Store,Electronics,350.0,2,700.0
+2024-01-04,C010,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-01-04,C010,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-01-04,C010,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-06-02,C010,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-06-02,C010,Jam,Mall A,Groceries,6.5,2,13.0
+2024-06-02,C010,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-05-01,C010,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-05-01,C010,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-05-01,C010,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-01-12,C010,Milk,Mall B,Groceries,4.5,1,4.5
+2024-01-12,C010,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-01-12,C010,Butter,Online Store,Groceries,4.0,1,4.0
+2024-01-07,C010,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-01-07,C010,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-01-07,C010,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-04-15,C010,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-04-15,C010,Jam,Online Store,Groceries,6.5,1,6.5
+2024-04-15,C010,Jeans,Online Store,Apparel,45.0,2,90.0
+2024-02-17,C011,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-02-17,C011,Wine,Online Store,Groceries,18.0,1,18.0
+2024-02-17,C011,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-02-07,C011,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-02-07,C011,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-02-07,C011,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-06-04,C011,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-06-04,C011,Milk,Online Store,Groceries,4.5,2,9.0
+2024-06-04,C011,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-01-19,C011,Jam,Mall B,Groceries,6.5,1,6.5
+2024-01-19,C011,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-01-19,C011,Milk,Online Store,Groceries,4.5,1,4.5
+2024-03-28,C011,Wine,Online Store,Groceries,18.0,1,18.0
+2024-03-28,C011,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-03-28,C011,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-05-01,C011,Butter,Online Store,Groceries,4.0,1,4.0
+2024-05-01,C011,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-05-01,C011,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-06-12,C011,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-06-12,C011,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-06-12,C011,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-05-06,C011,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-05-06,C011,Wine,Online Store,Groceries,18.0,2,36.0
+2024-05-06,C011,Jam,Mall B,Groceries,6.5,1,6.5
+2024-04-09,C011,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-04-09,C011,Butter,Mall A,Groceries,4.0,2,8.0
+2024-04-09,C011,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-03-21,C011,Butter,Mall B,Groceries,4.0,2,8.0
+2024-03-21,C011,Jeans,Online Store,Apparel,45.0,2,90.0
+2024-03-21,C011,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-01-29,C011,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-01-29,C011,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-01-29,C011,Wine,Online Store,Groceries,18.0,2,36.0
+2024-04-01,C011,Bread,Mall B,Groceries,3.0,2,6.0
+2024-04-01,C011,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-04-01,C011,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-05-14,C011,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-05-14,C011,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-05-14,C011,Jam,Mall B,Groceries,6.5,1,6.5
+2024-04-04,C011,Wine,Mall A,Groceries,18.0,1,18.0
+2024-04-04,C011,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-04-04,C011,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-04-23,C011,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-04-23,C011,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-04-23,C011,Wine,Mall B,Groceries,18.0,1,18.0
+2024-02-18,C012,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-02-18,C012,Wine,Mall A,Groceries,18.0,1,18.0
+2024-02-18,C012,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-04-15,C012,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-04-15,C012,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-04-15,C012,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-02-01,C012,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-02-01,C012,Jam,Mall A,Groceries,6.5,2,13.0
+2024-02-01,C012,Bread,Mall A,Groceries,3.0,2,6.0
+2024-04-23,C012,Jeans,Online Store,Apparel,45.0,1,45.0
+2024-04-23,C012,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-04-23,C012,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-05-25,C012,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-05-25,C012,Wireless Headphones,Mall A,Electronics,120.0,1,120.0
+2024-05-25,C012,Wine,Mall A,Groceries,18.0,2,36.0
+2024-02-10,C012,Butter,Mall B,Groceries,4.0,2,8.0
+2024-02-10,C012,Milk,Online Store,Groceries,4.5,1,4.5
+2024-02-10,C012,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-05-23,C012,Butter,Mall B,Groceries,4.0,2,8.0
+2024-05-23,C012,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-05-23,C012,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-03-07,C012,Bread,Online Store,Groceries,3.0,2,6.0
+2024-03-07,C012,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-03-07,C012,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-22,C012,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-05-22,C012,Eggs,Mall B,Groceries,5.5,1,5.5
+2024-05-22,C012,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-04-28,C012,Wine,Online Store,Groceries,18.0,1,18.0
+2024-04-28,C012,T-Shirt,Online Store,Apparel,15.5,2,31.0
+2024-04-28,C012,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-02-16,C012,Jam,Online Store,Groceries,6.5,2,13.0
+2024-02-16,C012,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-02-16,C012,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-01-06,C012,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-01-06,C012,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-01-06,C012,Jam,Mall B,Groceries,6.5,1,6.5
+2024-03-25,C012,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-03-25,C012,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-03-25,C012,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-01-11,C012,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-01-11,C012,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-01-11,C012,Butter,Online Store,Groceries,4.0,1,4.0
+2024-01-13,C012,Butter,Mall A,Groceries,4.0,1,4.0
+2024-01-13,C012,Bread,Online Store,Groceries,3.0,1,3.0
+2024-01-13,C012,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-05-05,C013,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-05-05,C013,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-05-05,C013,Bread,Online Store,Groceries,3.0,2,6.0
+2024-01-23,C013,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-01-23,C013,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-01-23,C013,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-01-11,C013,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-01-11,C013,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-01-11,C013,Jam,Online Store,Groceries,6.5,2,13.0
+2024-01-13,C013,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-01-13,C013,Milk,Mall A,Groceries,4.5,1,4.5
+2024-01-13,C013,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-02-01,C013,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-02-01,C013,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-02-01,C013,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-04-11,C013,Wine,Mall B,Groceries,18.0,2,36.0
+2024-04-11,C013,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-11,C013,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-01-17,C013,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-01-17,C013,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-01-17,C013,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-04-25,C013,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-04-25,C013,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-04-25,C013,Bread,Mall A,Groceries,3.0,1,3.0
+2024-03-13,C013,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-03-13,C013,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-03-13,C013,T-Shirt,Online Store,Apparel,15.5,1,15.5
+2024-02-28,C013,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-02-28,C013,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-02-28,C013,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-02-27,C013,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-02-27,C013,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-02-27,C013,Jam,Mall B,Groceries,6.5,2,13.0
+2024-03-02,C013,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-03-02,C013,Jam,Mall B,Groceries,6.5,2,13.0
+2024-03-02,C013,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-04-22,C013,Bread,Online Store,Groceries,3.0,2,6.0
+2024-04-22,C013,Milk,Online Store,Groceries,4.5,1,4.5
+2024-04-22,C013,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-02-05,C013,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-02-05,C013,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-02-05,C013,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-04-13,C013,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-04-13,C013,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-04-13,C013,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-06-14,C014,Butter,Mall A,Groceries,4.0,2,8.0
+2024-06-14,C014,Wine,Mall B,Groceries,18.0,1,18.0
+2024-06-14,C014,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-01-01,C014,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-01-01,C014,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-01-01,C014,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-05-31,C014,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-05-31,C014,Jam,Online Store,Groceries,6.5,2,13.0
+2024-05-31,C014,Butter,Mall A,Groceries,4.0,2,8.0
+2024-02-23,C014,T-Shirt,Online Store,Apparel,15.5,2,31.0
+2024-02-23,C014,Bread,Online Store,Groceries,3.0,1,3.0
+2024-02-23,C014,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-02-07,C014,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-02-07,C014,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-02-07,C014,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-08,C014,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-01-08,C014,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-01-08,C014,Butter,Mall A,Groceries,4.0,1,4.0
+2024-06-03,C014,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-06-03,C014,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-06-03,C014,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-06-26,C014,Milk,Mall A,Groceries,4.5,2,9.0
+2024-06-26,C014,Butter,Online Store,Groceries,4.0,2,8.0
+2024-06-26,C014,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-04-07,C014,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-04-07,C014,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-04-07,C014,Jam,Mall B,Groceries,6.5,2,13.0
+2024-05-18,C014,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-05-18,C014,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-05-18,C014,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-04-17,C014,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-04-17,C014,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-04-17,C014,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-01-03,C014,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-01-03,C014,Eggs,Online Store,Groceries,5.5,2,11.0
+2024-01-03,C014,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-01-02,C014,Paper Towels,Mall A,Household,12.0,2,24.0
+2024-01-02,C014,Bread,Mall A,Groceries,3.0,1,3.0
+2024-01-02,C014,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-06-28,C014,Jam,Online Store,Groceries,6.5,1,6.5
+2024-06-28,C014,Cheese,Mall B,Groceries,7.0,2,14.0
+2024-06-28,C014,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-04-24,C014,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-04-24,C014,Wine,Online Store,Groceries,18.0,1,18.0
+2024-04-24,C014,Butter,Mall A,Groceries,4.0,2,8.0
+2024-05-13,C015,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-05-13,C015,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-05-13,C015,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-04-21,C015,Bread,Mall A,Groceries,3.0,2,6.0
+2024-04-21,C015,Jeans,Online Store,Apparel,45.0,1,45.0
+2024-04-21,C015,Eggs,Mall B,Groceries,5.5,2,11.0
+2024-05-28,C015,Butter,Mall B,Groceries,4.0,1,4.0
+2024-05-28,C015,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-05-28,C015,Jam,Mall B,Groceries,6.5,1,6.5
+2024-02-24,C015,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-02-24,C015,Milk,Mall A,Groceries,4.5,2,9.0
+2024-02-24,C015,Jam,Mall B,Groceries,6.5,1,6.5
+2024-03-31,C015,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-03-31,C015,Wine,Mall A,Groceries,18.0,1,18.0
+2024-03-31,C015,Bread,Online Store,Groceries,3.0,1,3.0
+2024-03-07,C015,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-03-07,C015,Jam,Mall A,Groceries,6.5,1,6.5
+2024-03-07,C015,Eggs,Online Store,Groceries,5.5,2,11.0
+2024-01-23,C015,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-01-23,C015,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-01-23,C015,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-04-07,C015,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-04-07,C015,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-04-07,C015,Jam,Online Store,Groceries,6.5,1,6.5
+2024-04-20,C015,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-04-20,C015,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-04-20,C015,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-05-03,C015,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-03,C015,Jam,Online Store,Groceries,6.5,1,6.5
+2024-05-03,C015,Milk,Mall A,Groceries,4.5,1,4.5
+2024-05-23,C015,Wine,Mall B,Groceries,18.0,2,36.0
+2024-05-23,C015,Milk,Online Store,Groceries,4.5,1,4.5
+2024-05-23,C015,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-03-23,C015,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-03-23,C015,Milk,Mall B,Groceries,4.5,1,4.5
+2024-03-23,C015,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-03-01,C015,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-03-01,C015,Wine,Online Store,Groceries,18.0,1,18.0
+2024-03-01,C015,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-03-27,C015,Bread,Mall A,Groceries,3.0,1,3.0
+2024-03-27,C015,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-03-27,C015,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-05-19,C015,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-05-19,C015,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-05-19,C015,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-01-07,C016,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-01-07,C016,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-01-07,C016,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-02-12,C016,Bread,Mall B,Groceries,3.0,2,6.0
+2024-02-12,C016,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-02-12,C016,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-06-21,C016,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-06-21,C016,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-06-21,C016,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-01-16,C016,Jam,Mall A,Groceries,6.5,1,6.5
+2024-01-16,C016,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-01-16,C016,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-02-22,C016,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-02-22,C016,Jam,Mall A,Groceries,6.5,2,13.0
+2024-02-22,C016,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-05-08,C016,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-05-08,C016,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-05-08,C016,Bread,Mall B,Groceries,3.0,1,3.0
+2024-03-05,C016,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-03-05,C016,Bread,Mall B,Groceries,3.0,2,6.0
+2024-03-05,C016,Milk,Online Store,Groceries,4.5,1,4.5
+2024-03-16,C016,Butter,Mall A,Groceries,4.0,1,4.0
+2024-03-16,C016,Smartphone,Online Store,Electronics,350.0,1,350.0
+2024-03-16,C016,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-01-06,C016,Bread,Mall B,Groceries,3.0,2,6.0
+2024-01-06,C016,Wine,Mall A,Groceries,18.0,2,36.0
+2024-01-06,C016,Milk,Online Store,Groceries,4.5,1,4.5
+2024-05-30,C016,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-05-30,C016,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-05-30,C016,Butter,Online Store,Groceries,4.0,2,8.0
+2024-04-16,C016,Bread,Online Store,Groceries,3.0,2,6.0
+2024-04-16,C016,Jam,Mall B,Groceries,6.5,2,13.0
+2024-04-16,C016,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-04-23,C016,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-23,C016,Jam,Mall A,Groceries,6.5,1,6.5
+2024-04-23,C016,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-04-14,C016,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-04-14,C016,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-04-14,C016,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-04-13,C016,Milk,Mall A,Groceries,4.5,2,9.0
+2024-04-13,C016,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-04-13,C016,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-02-18,C016,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-02-18,C016,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-02-18,C016,Jeans,Mall B,Apparel,45.0,1,45.0
+2024-03-14,C017,Butter,Mall A,Groceries,4.0,1,4.0
+2024-03-14,C017,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-03-14,C017,Jeans,Mall A,Apparel,45.0,1,45.0
+2024-06-08,C017,Wine,Mall A,Groceries,18.0,1,18.0
+2024-06-08,C017,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-06-08,C017,Coffee,Mall A,Groceries,11.0,2,22.0
+2024-05-08,C017,Milk,Mall B,Groceries,4.5,2,9.0
+2024-05-08,C017,Jam,Online Store,Groceries,6.5,1,6.5
+2024-05-08,C017,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-04-09,C017,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-04-09,C017,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-04-09,C017,Coffee,Mall B,Groceries,11.0,1,11.0
+2024-03-22,C017,Jeans,Mall B,Apparel,45.0,2,90.0
+2024-03-22,C017,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-03-22,C017,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-04-25,C017,Milk,Online Store,Groceries,4.5,1,4.5
+2024-04-25,C017,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-04-25,C017,Butter,Mall A,Groceries,4.0,1,4.0
+2024-01-07,C017,Bread,Mall A,Groceries,3.0,2,6.0
+2024-01-07,C017,Milk,Online Store,Groceries,4.5,2,9.0
+2024-01-07,C017,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-06-07,C017,Butter,Mall B,Groceries,4.0,2,8.0
+2024-06-07,C017,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-06-07,C017,Milk,Mall B,Groceries,4.5,2,9.0
+2024-05-02,C017,Cereal,Mall B,Groceries,5.0,2,10.0
+2024-05-02,C017,Cheese,Mall A,Groceries,7.0,1,7.0
+2024-05-02,C017,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-02-26,C017,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-02-26,C017,Eggs,Online Store,Groceries,5.5,2,11.0
+2024-02-26,C017,Milk,Online Store,Groceries,4.5,1,4.5
+2024-03-17,C017,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-03-17,C017,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-03-17,C017,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-04-23,C017,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-04-23,C017,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-04-23,C017,Coffee,Mall A,Groceries,11.0,1,11.0
+2024-06-17,C017,Wine,Online Store,Groceries,18.0,2,36.0
+2024-06-17,C017,Bread,Online Store,Groceries,3.0,1,3.0
+2024-06-17,C017,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-04-02,C017,Paper Towels,Mall B,Household,12.0,1,12.0
+2024-04-02,C017,Wireless Headphones,Online Store,Electronics,120.0,2,240.0
+2024-04-02,C017,Butter,Mall A,Groceries,4.0,2,8.0
+2024-05-04,C017,Milk,Mall B,Groceries,4.5,1,4.5
+2024-05-04,C017,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-05-04,C017,Bread,Online Store,Groceries,3.0,2,6.0
+2024-01-24,C018,Bread,Mall A,Groceries,3.0,2,6.0
+2024-01-24,C018,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-01-24,C018,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-01-27,C018,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-01-27,C018,Milk,Mall A,Groceries,4.5,1,4.5
+2024-01-27,C018,Smartphone,Mall A,Electronics,350.0,2,700.0
+2024-05-18,C018,Wine,Mall A,Groceries,18.0,2,36.0
+2024-05-18,C018,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-05-18,C018,Wireless Headphones,Mall A,Electronics,120.0,2,240.0
+2024-02-27,C018,Milk,Mall B,Groceries,4.5,2,9.0
+2024-02-27,C018,Eggs,Online Store,Groceries,5.5,1,5.5
+2024-02-27,C018,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-02-03,C018,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-02-03,C018,Jam,Mall B,Groceries,6.5,1,6.5
+2024-02-03,C018,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-04-28,C018,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-04-28,C018,Bread,Mall B,Groceries,3.0,1,3.0
+2024-04-28,C018,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-01-05,C018,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-01-05,C018,Laptop,Mall B,Electronics,900.0,2,1800.0
+2024-01-05,C018,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-01-16,C018,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-01-16,C018,Bread,Mall A,Groceries,3.0,1,3.0
+2024-01-16,C018,Butter,Online Store,Groceries,4.0,1,4.0
+2024-03-08,C018,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-03-08,C018,Laptop,Mall A,Electronics,900.0,1,900.0
+2024-03-08,C018,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-06-03,C018,Milk,Mall B,Groceries,4.5,2,9.0
+2024-06-03,C018,Jam,Online Store,Groceries,6.5,1,6.5
+2024-06-03,C018,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-05-03,C018,Wine,Online Store,Groceries,18.0,1,18.0
+2024-05-03,C018,Cereal,Mall A,Groceries,5.0,2,10.0
+2024-05-03,C018,Jam,Online Store,Groceries,6.5,1,6.5
+2024-02-26,C018,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-02-26,C018,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-02-26,C018,Jam,Online Store,Groceries,6.5,2,13.0
+2024-03-02,C018,Eggs,Online Store,Groceries,5.5,2,11.0
+2024-03-02,C018,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-03-02,C018,Cleaning Spray,Mall A,Household,8.0,2,16.0
+2024-06-27,C018,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-06-27,C018,Wine,Mall B,Groceries,18.0,2,36.0
+2024-06-27,C018,Cereal,Online Store,Groceries,5.0,2,10.0
+2024-01-12,C018,Butter,Mall B,Groceries,4.0,2,8.0
+2024-01-12,C018,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-01-12,C018,Jam,Online Store,Groceries,6.5,1,6.5
+2024-05-13,C019,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-05-13,C019,Bread,Online Store,Groceries,3.0,2,6.0
+2024-05-13,C019,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-01-14,C019,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-01-14,C019,Smartphone,Online Store,Electronics,350.0,2,700.0
+2024-01-14,C019,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-05-28,C019,Jeans,Online Store,Apparel,45.0,2,90.0
+2024-05-28,C019,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-05-28,C019,Bread,Mall B,Groceries,3.0,1,3.0
+2024-02-06,C019,Bread,Online Store,Groceries,3.0,1,3.0
+2024-02-06,C019,Cheese,Online Store,Groceries,7.0,2,14.0
+2024-02-06,C019,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-04-21,C019,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-04-21,C019,Bread,Online Store,Groceries,3.0,1,3.0
+2024-04-21,C019,Cleaning Spray,Online Store,Household,8.0,2,16.0
+2024-06-27,C019,Jam,Mall B,Groceries,6.5,2,13.0
+2024-06-27,C019,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-06-27,C019,Wine,Mall A,Groceries,18.0,1,18.0
+2024-04-12,C019,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-04-12,C019,Wine,Mall B,Groceries,18.0,2,36.0
+2024-04-12,C019,Laptop,Online Store,Electronics,900.0,2,1800.0
+2024-05-05,C019,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-05-05,C019,Jam,Mall A,Groceries,6.5,2,13.0
+2024-05-05,C019,Eggs,Mall A,Groceries,5.5,1,5.5
+2024-01-02,C019,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-01-02,C019,Cereal,Online Store,Groceries,5.0,1,5.0
+2024-01-02,C019,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-03-26,C019,Wireless Headphones,Online Store,Electronics,120.0,1,120.0
+2024-03-26,C019,T-Shirt,Mall B,Apparel,15.5,1,15.5
+2024-03-26,C019,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-01-25,C019,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-01-25,C019,Jeans,Online Store,Apparel,45.0,2,90.0
+2024-01-25,C019,Cleaning Spray,Mall B,Household,8.0,2,16.0
+2024-05-03,C019,Cheese,Mall B,Groceries,7.0,1,7.0
+2024-05-03,C019,Cereal,Mall A,Groceries,5.0,1,5.0
+2024-05-03,C019,Paper Towels,Mall A,Household,12.0,1,12.0
+2024-05-26,C019,Cleaning Spray,Mall A,Household,8.0,1,8.0
+2024-05-26,C019,Jam,Online Store,Groceries,6.5,2,13.0
+2024-05-26,C019,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-05-25,C019,Eggs,Mall B,Groceries,5.5,1,5.5
+2024-05-25,C019,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-05-25,C019,Cheese,Mall A,Groceries,7.0,2,14.0
+2024-04-24,C019,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-04-24,C019,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-04-24,C019,Milk,Mall A,Groceries,4.5,1,4.5
+2024-04-29,C020,Smartphone,Mall B,Electronics,350.0,2,700.0
+2024-04-29,C020,Butter,Mall B,Groceries,4.0,1,4.0
+2024-04-29,C020,Jam,Mall A,Groceries,6.5,1,6.5
+2024-03-02,C020,Butter,Mall B,Groceries,4.0,1,4.0
+2024-03-02,C020,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-03-02,C020,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-06-21,C020,Wireless Headphones,Mall B,Electronics,120.0,1,120.0
+2024-06-21,C020,Paper Towels,Online Store,Household,12.0,1,12.0
+2024-06-21,C020,Smartphone,Mall B,Electronics,350.0,1,350.0
+2024-05-04,C020,Cleaning Spray,Online Store,Household,8.0,1,8.0
+2024-05-04,C020,Laptop,Mall B,Electronics,900.0,1,900.0
+2024-05-04,C020,T-Shirt,Mall A,Apparel,15.5,1,15.5
+2024-05-13,C020,Coffee,Online Store,Groceries,11.0,2,22.0
+2024-05-13,C020,T-Shirt,Mall A,Apparel,15.5,2,31.0
+2024-05-13,C020,Bread,Mall A,Groceries,3.0,1,3.0
+2024-06-19,C020,Jeans,Online Store,Apparel,45.0,1,45.0
+2024-06-19,C020,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-06-19,C020,Laptop,Online Store,Electronics,900.0,1,900.0
+2024-04-10,C020,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-04-10,C020,Cleaning Spray,Mall B,Household,8.0,1,8.0
+2024-04-10,C020,Milk,Mall B,Groceries,4.5,2,9.0
+2024-02-02,C020,Bread,Mall A,Groceries,3.0,2,6.0
+2024-02-02,C020,Coffee,Mall B,Groceries,11.0,2,22.0
+2024-02-02,C020,Butter,Online Store,Groceries,4.0,1,4.0
+2024-04-01,C020,Eggs,Mall A,Groceries,5.5,2,11.0
+2024-04-01,C020,Jeans,Mall A,Apparel,45.0,2,90.0
+2024-04-01,C020,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-11,C020,Butter,Mall B,Groceries,4.0,2,8.0
+2024-01-11,C020,T-Shirt,Mall B,Apparel,15.5,2,31.0
+2024-01-11,C020,Wireless Headphones,Mall B,Electronics,120.0,2,240.0
+2024-04-17,C020,Coffee,Online Store,Groceries,11.0,1,11.0
+2024-04-17,C020,Bread,Mall A,Groceries,3.0,1,3.0
+2024-04-17,C020,Cheese,Online Store,Groceries,7.0,1,7.0
+2024-03-09,C020,Smartphone,Mall A,Electronics,350.0,1,350.0
+2024-03-09,C020,Jam,Online Store,Groceries,6.5,1,6.5
+2024-03-09,C020,Cereal,Mall B,Groceries,5.0,1,5.0
+2024-02-27,C020,Jam,Mall A,Groceries,6.5,2,13.0
+2024-02-27,C020,Bread,Mall A,Groceries,3.0,1,3.0
+2024-02-27,C020,Paper Towels,Mall B,Household,12.0,2,24.0
+2024-05-18,C020,Cheese,Online Store,Groceries,7.0,2,14.0
+2024-05-18,C020,Laptop,Mall A,Electronics,900.0,2,1800.0
+2024-05-18,C020,Milk,Mall B,Groceries,4.5,2,9.0
+2024-02-07,C020,Paper Towels,Online Store,Household,12.0,2,24.0
+2024-02-07,C020,Bread,Online Store,Groceries,3.0,2,6.0
+2024-02-07,C020,Smartphone,Online Store,Electronics,350.0,2,700.0
