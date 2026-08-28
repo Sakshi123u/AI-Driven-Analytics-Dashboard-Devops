@@ -66,10 +66,11 @@ jobs:
 
       - name: Create Ansible inventory
         run: |
-          cat > ansible/inventory.ini <<EOF
-          [web]
-          ${{ secrets.EC2_HOST }} ansible_user=${{ secrets.EC2_USERNAME }} ansible_ssh_private_key_file=../fa1-key.pem
-          EOF
+          echo "[web]" > ansible/inventory.ini
+          echo "${{ secrets.EC2_HOST }} ansible_user=${{ secrets.EC2_USERNAME }} ansible_ssh_private_key_file=../fa1-key.pem" >> ansible/inventory.ini
+
+          echo "Generated inventory:"
+          cat ansible/inventory.ini
 
       - name: Test Ansible connection
         run: |
