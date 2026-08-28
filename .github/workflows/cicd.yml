@@ -70,10 +70,7 @@ jobs:
       - name: Create Ansible inventory
         run: |
           echo "[web]" > ansible/inventory.ini
-          echo "${{ secrets.EC2_HOST }} ansible_user=${{ secrets.EC2_USERNAME }} ansible_ssh_private_key_file=../fa1-key.pem" >> ansible/inventory.ini
-
-          echo "Generated inventory:"
-          cat ansible/inventory.ini
+          echo "${{ secrets.EC2_HOST }} ansible_user=${{ secrets.EC2_USERNAME }} ansible_ssh_private_key_file=${{ github.workspace }}/fa1-key.pem" >> ansible/inventory.ini
 
       - name: Test Ansible connection
         run: |
