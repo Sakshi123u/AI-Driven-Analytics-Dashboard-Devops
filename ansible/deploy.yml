@@ -24,6 +24,7 @@
       pip:
         name: docker
         state: present
+        break_system_packages: true
 
     - name: Start Docker service
       service:
