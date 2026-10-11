@@ -23,6 +23,8 @@ from streamlit_option_menu import option_menu
 # ansible/deploy.yml), which in turn gets it from the GitHub Actions
 # secret OPENROUTER_API_KEY. Locally, set it with:
 #   export OPENROUTER_API_KEY="your-key-here"
+st.set_page_config(page_title="AI Driven Analytics", page_icon="🚀", layout="wide")
+
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 if not OPENROUTER_API_KEY:
@@ -39,7 +41,7 @@ client = OpenAI(
 # -----------------------------------
 # Streamlit Config
 # -----------------------------------
-st.set_page_config(page_title="AI Driven Analytics", page_icon="🚀", layout="wide")
+
 
 # -----------------------------------
 # Custom CSS for Modern Look
